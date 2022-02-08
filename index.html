@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Arima+Madurai:wght@100;200&family=Comfortaa:wght@300&family=Dancing+Script:wght@600&family=Fasthand&family=Homemade+Apple&family=Lexend+Tera:wght@200&family=Montserrat+Alternates:wght@200;400&family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@300&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles_aos.css">
+    <script src="https://kit.fontawesome.com/f1f4b33ed7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./dist/aos.css">
+    <title>Desafío SCSS</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#formacion">FORMACIÓN</a> 
+                </li>
+                <li>
+                    <a href="#instructores">NOSOTROS</a> 
+                </li>
+                <div class="logo">
+                    <img src="./multimedia/logo.png" alt="">
+                    <p>Siempre Yoga</p>
+                </div>
+                <li>
+                    <a href="#videos">VIDEOS</a> 
+                </li>
+                <li>
+                    <a href="#contacto">CONTACTO</a> 
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="portada">
+            <img src="./multimedia/imgPortada.jpg" alt="">
+            <h1>Haz del yoga una parte de tu vida</h1>
+        </div>
+        <section class="cards" id="formacion">
+            <div class="card1" data-aos="fade-right" data-aos-duration="1500">
+                <img src="./multimedia/imgCardA.png" alt="">
+                <h2>DESDE LA COMODIDAD DE TU HOGAR</h2>
+                <p>Practica cuándo, dónde y cómo quieras. Porque el yoga debe adaptarse a ti, no al revés.</p>
+                
+            </div>
+            <div class="card2" data-aos="fade-up" data-aos-duration="1500">
+                <img src="./multimedia/imgCardB.png" alt="">
+                <h2>TOTALMENTE FLEXIBLE</h2>
+                <p>Algunos de los profesores de yoga más experimentados muestran clases de yoga, tutoriales y programas para principiantes y avanzados.</p>
+                
+            </div>
+            <div class="card3"data-aos="fade-left" data-aos-duration="1500">
+                <img src="./multimedia/imgCardC.png" alt="">
+                <h2>COMUNIDAD EN CRECIMIENTO</h2>
+                <p>Todos practican por sí mismos, pero
+                    no solos. Conviértete en parte de nuestra
+                    comunidad en constante crecimiento.</p>
+            </div>
+        </section>
+        <section class="barraMedio">
+            <div>
+                <img src="./multimedia/icon1.png" alt="">
+                <h2>MÁS DE 850 VIDEOS DE YOGA</h2>
+                <h3>para principiantes y avanzados</h3>
+            </div>
+            <div>
+                <img src="./multimedia/icon2.png" alt="">
+                <h2>PROGRAMAS</h2>
+                <h3>para el cuerpo y el alma</h3>
+            </div>
+            <div>
+                <img src="./multimedia/icon3.png" alt="">
+                <h2>TERÁPIA DE YOGA</h2>
+                <h3>En caso de incomodidad y dolor</h3>
+            </div>
+        </section>
+        <div class="instructores" id="instructores">
+            <h2>Nuestros profesores de yoga en línea</h2>
+            <p class="textInstructor">Amplia formación, experiencia, pasión: estos son los requisitos previos para nuestros profesores. Aquí hay una parte de un total de más de 40 maestros.</p>
+            <div class="cardInstruc">   
+                <div class="profesorA">
+                    <img  data-aos="zoom-in" src="./multimedia/instructor1.png" alt="">
+                    <h3>VICTORIA FANDL</h3>
+                    <h4>Yogalehrerin</h4>
+                    <p class="text">Victoria ha hecho un proyecto cercano a su corazón para apoyar a las mujeres en su camino hacia un mayor equilibrio y autodeterminación. Lo especial de sus clases de yoga es la alineación con el ciclo femenino y la anatomía femenina del yoga de las energías. En las clases de yoga de Victoria experimentarás elementos de la terapia de yoga, el "Yoga informado sobre el autocuidado de la mujer", varias técnicas de respiración y también elementos de las direcciones tradicionales del yoga como el tantra.</p>
+                </div>
+                <div class="profesorB" >
+                    <h3>FLORIAN PALZINSKYSAÑO</h3>
+                    <h4>Profesor de Meditación</h4>
+                    <p class="text">Sus talleres y retiros representan el aspecto holístico del yoga, porque además de las asanas, coloca repetidamente los ejercicios de meditación y atención plena en el centro de la práctica.</p>
+                    <img data-aos="zoom-in" src="./multimedia/instructor2.png" alt="">
+                </div>
+                <div class="profesorC" >
+                    <img data-aos="zoom-in" src="./multimedia/instructor3.png" alt="">
+                    <h3>BITTA BOERGERFASA</h3>
+                    <h4>Terapia de Vinyasa</h4>
+                    <p class="text">Con sus muchos años de experiencia, combina hábilmente las desafiantes secuencias de Vinyasa con su conocimiento de la terapia de yoga. Esto crea una práctica alegre, a veces similar a la danza y al mismo tiempo saludable para sus estudiantes.</p>
+                </div>
+            </div> 
+        </div>
+        <section class="videos" id="videos">
+            <h2 class="tituloVideo">Nuestros Videos, Nuestra Filosofía</h2>
+            <p class="textoVideo">Ofrecemos todas las áreas importantes del yoga. Para nuestros cursos de yoga online, solo trabajamos con profesores que tienen muchos años de experiencia y tienen formación adicional en el sector de la salud o que ya forman a otros profesores.</p>
+            <div class="videoYoga">
+                <video class="horizontal"src="./multimedia/production ID_3760963.mp4" controls></video>
+                <h3>Tadasana – Postura de la Montaña</h3>
+                <p>La Tadasana es una de las poses básicas con las que comenzar la práctica del Yoga. Detrás de su aparente sencillez esconde un gran significado que te contamos aquí.</p>
+            </div>
+            <div class="videoYoga">
+                <video class="horizontal" src="./multimedia/production_ID_3760884.mp4" controls></video>
+                <h3>Utthita Parsva- konasana</h3>
+                <p>La Utthita Parsvakonasana o Ángulo Lateral Extendido es una variante de la Parsvakonasana con grandes beneficios. Te cuento su significado y cómo hacerla paso a paso.</p>
+            </div>
+            <div class="videoYoga">
+                <video class="horizontal" src="./multimedia/production ID_3760970.mp4"controls></video>
+                <h3>Ardha Chandrasana – Postura de la Media Luna</h3>
+                <p>Una de las asanas más efectivas para estirar y flexibilizar la espalda. Aprende a realizar y diferenciar la Chandrasana, Ardha Chandrasana y la Parivrtta Ardha Chandrasana.</p>
+            </div>
+            <div class="videoYoga">
+                <video class="horizontal"src="./multimedia/production ID_3760965 (1).mp4"controls></video>
+                <h3>Postura de la Vaca</h3>
+                <p>Se realiza en combinación con la postura del gato. En sánscrito reciben el mismo nombre, Marjaryasana. Es importante distinguir esta asana de la postura «Cara de Vaca». Aquí encontrarás las diferencias</p>
+            </div>
+            <div class="videoYoga">
+                <video class="vertical" src="./multimedia/production ID_3761089.mp4"controls></video>
+                <h3>Uttanasana – Postura de la Pinza</h3>
+                <p>Postura de flexión hacia adelante. Cómo realizar todas sus variantes: Ardha Uttanasana, Baddha Uttanasana, Parivrtta Uttanasana, Eka Pada Uttanasana, Sahaja Mayurasana Uttanasana.</p>
+            </div>
+            <div class="videoYoga">
+                <video class="vertical" src="./multimedia/production ID_3761095.mp4"controls></video>
+                <h3>Utkatasana – Postura de la Silla</h3>
+                <p>La Postura de la Silla es perfecta para fortalecer y tonificar glúteos y piernas. Además, es una asana de equilibrio. Te contamos cómo realizarla paso a paso y todos sus beneficios</p>
+            </div>
+            <div class="videoYoga">
+                <video class="vertical" src="./multimedia/production ID_3761091.mp4"controls></video>
+                <h3>Sarvangasana – Postura de la Vela</h3>
+                <p>La reina de las posturas de Yoga invertidas. Te contamos cómo hacerla [incluso si eres principiante] y sus principales variaciones: Ardha Sarvangasana, Eka Pada Sarvangasana, Padma Sarvangasana, Salamba Sarvangasana, Niralamba Sarvangasana</p>
+            </div>
+            <div class="videoYoga">
+                <video src="./multimedia/production ID_3761206.mp4"controls></video>
+                <h3>Saludo al Sol o Surya Namaskar</h3>
+                <p>Una de las secuencias esenciales para iniciar las sesiones de Yoga, tanto para principiantes como para Yoga Avanzado. Descubre las 7 posturas que lo componen y cómo hacerlas paso a paso.</p>
+            </div>
+        </section>
+        <div class="contacto" id="contacto">
+                <form>
+                    <h3>¿Querés saber más acerca de nuestras clases?</h3>
+                    <p>Completá el formulario y nos comunicaremos con Usted</p>
+                    <p></p><input type="text" required name="Nombre" placeholder="Nombre"></p>
+                    <p></p><input type="text" required name="Apellido" placeholder="Apellido"></p>
+                    <p></p><input type="email" required name="email" placeholder="E-mail"></p>
+                    <select id="sexo" name="sexo" size="1">
+                        <option>Soltero/a</option>
+                        <option>Casado/a</option>
+                        <option>Divorciado/a</option>
+                        <option>Viudo/a</option>
+                    </select>
+                    <p>¿Desea recibir el Newsletter? <input type="checkbox"></p>
+                    <p><textarea rows="10" placeholder="Comentarios"></textarea></p>
+                    <input type="reset" value="Limpiar Formulario">
+                    <input type="submit">
+                </form>
+                <img src="./multimedia/imgContacto.png" alt="">
+            
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://mail.google.com/"><i class="fas fa-at"></i></a>
+        </div>
+        <p>&copy 2022 - Siempre Yoga</p>
+
+    </footer>
+    <script src="../dist/aos.js"></script>
+    <script> AOS.init(); </script>
+</body>
+</html>

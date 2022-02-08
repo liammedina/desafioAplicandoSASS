@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  height: 18vh;
+  background-color: #fcfaf7;
+  width: 99.9%; }
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding: 15px;
+    list-style: none;
+    align-items: center; }
+    header nav ul li {
+      font-family: 'Arima Madurai', cursive;
+      margin: 0 10px;
+      font-size: 25px;
+      font-weight: bold; }
+      header nav ul li a {
+        color: #868666;
+        text-decoration: none; }
+        header nav ul li a:hover {
+          transform: scale(1.2);
+          transition: 300ms; }
+    header nav ul .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      header nav ul .logo img {
+        height: 60px;
+        width: 75px;
+        margin: 0 10px; }
+      header nav ul .logo p {
+        font-family: 'Allura', cursive;
+        font-weight: bold;
+        font-size: 25px; }
+
+main {
+  width: 100vw; }
+  main .portada img {
+    height: 84vh;
+    width: 99%;
+    position: relative; }
+  main .portada h1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: -55vh;
+    margin-left: 50vw;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
+    font-size: 10vh;
+    text-align: center; }
+  main .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 105vh;
+    width: 99.9%;
+    padding: 12vh 0; }
+    main .cards .card1 {
+      width: 25vw;
+      height: 75vh;
+      display: flex;
+      margin: 20px;
+      padding: 20px 0;
+      flex-direction: column;
+      align-items: center;
+      background-color: honeydew;
+      border-radius: 15% 15% 0 0;
+      box-shadow: 5px 5px 10px gray; }
+    main .cards img {
+      height: 200px;
+      width: 200px;
+      padding: 20px; }
+    main .cards h2 {
+      text-align: center;
+      font-family: 'Arima Madurai', cursive;
+      padding: 20px; }
+    main .cards p {
+      text-align: center;
+      width: 22vw; }
+    main .cards .card2 {
+      width: 25vw;
+      height: 75vh;
+      display: flex;
+      margin: 20px;
+      padding: 20px 0;
+      flex-direction: column;
+      align-items: center;
+      background-color: honeydew;
+      border-radius: 15% 15% 0 0;
+      box-shadow: 5px 5px 10px gray; }
+    main .cards img {
+      height: 200px;
+      width: 200px;
+      padding: 20px; }
+    main .cards h2 {
+      text-align: center;
+      font-family: 'Arima Madurai', cursive;
+      padding: 20px; }
+    main .cards p {
+      text-align: center;
+      width: 22vw; }
+    main .cards .card3 {
+      width: 25vw;
+      height: 75vh;
+      display: flex;
+      margin: 20px;
+      padding: 20px 0;
+      flex-direction: column;
+      align-items: center;
+      background-color: honeydew;
+      border-radius: 15% 15% 0 0;
+      box-shadow: 5px 5px 10px gray; }
+    main .cards img {
+      height: 200px;
+      width: 200px;
+      padding: 20px; }
+    main .cards h2 {
+      text-align: center;
+      font-family: 'Arima Madurai', cursive;
+      padding: 20px; }
+    main .cards p {
+      text-align: center;
+      width: 22vw;
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-weight: bold; }
+  main .barraMedio {
+    display: flex;
+    flex-direction: row;
+    width: 99vw;
+    height: 80vh;
+    background-color: #D8E2DC;
+    justify-content: space-evenly;
+    margin: 5vh 0 15vh 0; }
+    main .barraMedio div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10vh 0;
+      width: 25vw; }
+      main .barraMedio div img {
+        height: 100px;
+        margin: 4vh 0; }
+      main .barraMedio div h2 {
+        font-family: 'Montserrat Alternates', sans-serif;
+        text-align: center; }
+      main .barraMedio div h3 {
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 4vh; }
+  main .instructores {
+    display: flex;
+    flex-direction: column;
+    width: 95vw; }
+    main .instructores h2 {
+      text-align: center;
+      font-family: 'Arima Madurai', cursive;
+      font-weight: bold; }
+    main .instructores .textInstructor {
+      width: 50vw;
+      margin: 3vh 25vw;
+      text-align: center;
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-weight: bold; }
+    main .instructores .cardInstruc {
+      display: flex;
+      flex-direction: column; }
+      main .instructores .cardInstruc .profesorA {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 90vw;
+        height: 65vh;
+        align-items: center;
+        margin: 65px;
+        border: solid 2px #868666;
+        border-radius: 10px;
+        background-color: #FFE3D0; }
+        main .instructores .cardInstruc .profesorA img {
+          height: 45vh;
+          margin: 5vw; }
+        main .instructores .cardInstruc .profesorA h3 {
+          text-align: center;
+          width: 10vw;
+          font-family: 'Arima Madurai', cursive;
+          font-weight: bold; }
+        main .instructores .cardInstruc .profesorA h4 {
+          width: 10vw;
+          margin: 0 50px;
+          font-family: 'Montserrat Alternates', sans-serif; }
+        main .instructores .cardInstruc .profesorA .text {
+          width: 30vw;
+          text-align: justify;
+          margin-right: 100px;
+          font-family: 'Montserrat Alternates', sans-serif; }
+      main .instructores .cardInstruc .profesorB {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 90vw;
+        height: 65vh;
+        align-items: center;
+        margin: 65px;
+        border: solid 2px #868666;
+        border-radius: 10px;
+        background-color: #D8E2DC; }
+        main .instructores .cardInstruc .profesorB img {
+          height: 45vh;
+          margin: 5vw; }
+        main .instructores .cardInstruc .profesorB h3 {
+          text-align: center;
+          width: 10vw;
+          font-family: 'Arima Madurai', cursive;
+          font-weight: bold; }
+        main .instructores .cardInstruc .profesorB h4 {
+          width: 10vw;
+          margin: 0 20px;
+          font-family: 'Montserrat Alternates', sans-serif;
+          text-align: center; }
+        main .instructores .cardInstruc .profesorB .text {
+          width: 30vw;
+          text-align: justify;
+          font-family: 'Montserrat Alternates', sans-serif; }
+      main .instructores .cardInstruc .profesorC {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 90vw;
+        height: 65vh;
+        align-items: center;
+        margin: 65px;
+        background-color: #fcd5ce;
+        border: solid 2px #868666;
+        border-radius: 10px; }
+        main .instructores .cardInstruc .profesorC img {
+          height: 45vh;
+          margin: 5vw; }
+        main .instructores .cardInstruc .profesorC h3 {
+          text-align: center;
+          width: 10vw;
+          font-family: 'Arima Madurai', cursive;
+          font-weight: bold; }
+        main .instructores .cardInstruc .profesorC h4 {
+          width: 10vw;
+          margin: 0 50px;
+          text-align: center;
+          font-family: 'Montserrat Alternates', sans-serif; }
+        main .instructores .cardInstruc .profesorC .text {
+          width: 30vw;
+          text-align: justify;
+          margin-right: 90px;
+          font-family: 'Montserrat Alternates', sans-serif; }
+  main .videos {
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5vw; }
+    main .videos .tituloVideo {
+      width: 50vw;
+      margin: 3vh 25vw;
+      text-align: center;
+      font-family: 'Arima Madurai', cursive;
+      font-weight: bold; }
+    main .videos .textoVideo {
+      width: 50vw;
+      margin: 3vh 25vw;
+      text-align: center;
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-weight: bold; }
+    main .videos .videoYoga {
+      margin: 5vh;
+      width: 40vw;
+      border: solid 2px #fcd5ce;
+      border-radius: 10px; }
+      main .videos .videoYoga video {
+        width: 35vw;
+        height: 405px;
+        margin: 5vh; }
+      main .videos .videoYoga h3 {
+        width: 40vw;
+        text-align: center;
+        font-family: 'Montserrat Alternates', sans-serif; }
+      main .videos .videoYoga p {
+        width: 35vw;
+        font-family: 'Montserrat Alternates', sans-serif;
+        text-align: center;
+        margin: 5vh; }
+
+.contacto {
+  display: flex;
+  flex-direction: row;
+  background-color: #868666;
+  height: 65vh;
+  padding: 50px 0 50px 10vw; }
+  .contacto form h3 {
+    font-family: 'Arima Madurai', cursive;
+    color: #E8E8E4; }
+  .contacto form p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #E8E8E4;
+    font-weight: bold; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  margin: 0 50px; }
+  footer .social {
+    width: 30vw;
+    font-size: 30px; }
+    footer .social i {
+      margin: 10px;
+      font-weight: bold;
+      color: #868666; }

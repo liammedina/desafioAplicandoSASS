@@ -1,0 +1,18 @@
+.contacto{
+    display: flex;
+    flex-direction: row;
+    background-color: $verde;
+    height: 65vh;
+    padding: 50px 0 50px 10vw;
+    form{
+        h3{
+            font-family: 'Arima Madurai', cursive;
+            color: $fondo;
+        }
+        p{
+            font-family: 'Montserrat Alternates', sans-serif;
+            color: $fondo;
+            font-weight: bold;
+        }
+    }
+}

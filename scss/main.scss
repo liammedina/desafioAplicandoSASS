@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+//IMPORTACIONES
+@import './utilidades/colores.scss';
+@import './header-footer/header.scss';
+@import './secciones/index.scss';
+@import './secciones/contacto.scss';
+@import './header-footer/footer.scss';
